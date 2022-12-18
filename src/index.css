@@ -1,0 +1,42 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: background-color 0.5s ease;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #333;
+}
+.dark-mode {
+  background-color: #212121;
+  color: rgb(227, 227, 227);
+}
+
+.dark-mode-button {
+  color: gold;
+}
+
+/* remove button styling */
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: inherit;
+  font-size: 3.5rem;
+}
+p {
+  max-width: 30%;
+  margin: 0 auto;
+  font-size: 2rem;
+}
