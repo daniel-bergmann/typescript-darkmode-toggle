@@ -24,6 +24,7 @@ main {
 
 .dark-mode-button {
   color: gold;
+
 }
 
 /* remove button styling */
@@ -33,7 +34,7 @@ button {
   outline: none;
   cursor: pointer;
   color: inherit;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
 }
 p {
   max-width: 30%;
